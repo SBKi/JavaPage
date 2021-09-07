@@ -1,0 +1,5 @@
+table{width: 70%; text-align: center;}
+td{border-bottom: 1px solid gray;}
+th{color: white; background-color: brown;}
+td,th{padding-bottom: 5px;}
+.name{color: orangered;}

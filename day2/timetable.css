@@ -1,0 +1,40 @@
+caption{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: burlywood;
+}
+table{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid burlywood;
+}
+
+th{
+    width: 100px;
+    color: brown;
+    border : 1px solid burlywood;
+}
+td{
+    border : 1px solid burlywood;
+}
+.programming{
+    background-color: violet;
+}
+.html{
+    background-color: cadetblue;
+}
+.oracle{
+    background-color: pink;
+}
+.mysql{
+    background-color: aqua;
+}
+.lunch{
+    background-color: azure;
+    color: blue;
+}
