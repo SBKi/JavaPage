@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="member.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrap_div">
+        <form action="">
+        <h3 style="border-bottom: 1px solid black;">회원 등록</h3>
+        <i class="fas fa-address-book"></i>
+        <table style="width: 100%; margin: auto;">
+            <tr>
+                <td class="caption">이름</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td class="caption">패스워드</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="caption">이메일</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="caption">나이</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td class="caption">주소</td>
+                <td>
+                    <select name="address" id="">
+                        <option value="서울">서울</option>
+                        <option value="부산">부산</option>
+                        <option value="광주">인천</option>
+                        <option value="진주">대구</option>
+                        <option value="강원">대전</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="caption">성별</td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="mail"><label for="mail">남자</label>
+                    <input type="radio" name="gender" value="female"id="femail"><label for="femail">여자</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="caption">취미</td>
+                <td>
+                    <input type="checkbox" name="hobby" id="game" value="게임"><label for="game">게임</label>
+                    <input type="checkbox" name="hobby" id="football" value="축구"><label for="football">축구</label>
+                    <input type="checkbox" name="hobby" id="baskeball" value="농구"><label for="baskeball">농구</label>
+                    <input type="checkbox" name="hobby" id="running" value="달리기"><label for="running">달리기</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="btn">
+                    <input type="submit" value="가입하기">
+                    <input type="reset" value="다시쓰기">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
