@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="js5.css">
+    <script src="js5_exam.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h2>문자열 사용 연습</h2>
+        <hr>
+    <table>
+        <tr>
+        <th>입력한 문자열</th>
+        <td id="str"></td>
+        </tr>
+        <tr>
+            <th>문자열 길이</th>
+            <td id="len"></td>
+        </tr>
+        <tr>
+            <th>문자열<input type="text" id="search"> 위치  <button onclick="search()">찾기</button></th>
+            <td id="index"></td>
+        </tr>
+        <tr>
+            <th>처음<input type="number" id="first">끝<input type="number" id="last"> <button onclick="getReslut()">추출</button></th>
+            <td id="result"> </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <button onclick="strMethod()" style="width: 100%;">문자열 입력하기</button>
+            </th>
+        </tr>    
+    </table>
+    </div>
+</body>
+</html>

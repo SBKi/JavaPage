@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        let state = 0;
+        function toggle(){
+        if(state == 1){
+            document.getElementById('myImage').src='file:///C:/Users/Beomki/vscode-workspace/images/pic_bulboff.gif';
+            state = 0;
+            }else{
+            document.getElementById('myImage').src='file:///C:/Users/Beomki/vscode-workspace/images/pic_bulbon.gif';
+            state = 1;
+        }
+    }
+    </script>
+</head>
+<body>
+    
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+    
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    
+    <p>Click to Picture</p>
+        <img id="myImage" src="../images/pic_bulboff.gif" style="width:100px;cursor: pointer;" onclick="toggle()" >    
+    </body>
+</html>

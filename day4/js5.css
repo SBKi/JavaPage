@@ -1,0 +1,40 @@
+table{   
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+}
+td{
+    width: 40%;
+    border-bottom: 1px solid pink;
+}
+th{
+    width: 60%;
+    background-color: antiquewhite;
+    text-align: left;
+}
+tr{
+    padding: 5px;
+}
+#first,#last{
+    margin: 0px 5px 0px 5px;
+    width: 50px;
+}
+#search{
+    margin: 0px 5px 0px 5px;
+    width :80px;
+}
+button{
+    background-color: coral;
+    padding: 7px;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+}
+.wrap{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+h2{
+    margin-bottom: 0px;
+    color: chocolate;

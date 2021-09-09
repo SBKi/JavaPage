@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    let text="I am Javascript sam.";
+   document.write('문자열 길이 :' + text.length);document.write('<br>');
+   document.write('단어 위치찾기:' + text.indexOf('am'));document.write('<br>');
+   document.write('단어 위치찾기:' + text.lastIndexOf('am'));document.write('<br>');
+   let result = text.substring(7,11);  //11은 포함 안됨.
+   document.write('문자열 추출 : ' + result);document.write('<br>');
+   document.write(text);document.write('<br>');
+   text += 'text';
+   document.write(text);
+
+   result = text.replace('javascript','jsp');
+    </script>
+</head>
+<body>
+</body>
+</html>
