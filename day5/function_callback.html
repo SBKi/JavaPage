@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin: 5px; background-color: beign;">현재 시간 : <span id="now"></span></div>
+    <button id="btn1" onclick="btn1()"> 클릭 이벤트 확인</button><br>
+    <button id="btn2" > 클릭 이벤트 확인</button><br>
+</body>
+    <script>
+        const btn1 = function(){
+            console.log("첫번째 버튼 클릭");
+            setInterval(function(){
+                document.getElementById('now').innerHTML = Date();
+            },1000);
+        };
+
+        document.getElementById('btn2').addEventListener('click',function(){
+            console.log("2번째 버튼 클릭");
+        });
+    
+        const inputStar = function(){
+            console.log('*');
+        }
+        setInterval(inputStar,4000);
+    </script>
+</html>
