@@ -1,0 +1,32 @@
+h1{
+ margin-bottom: 50px;   
+}
+.wrapper{
+ width: 70%;
+ height: 800px;
+ background-color: gray;   
+}
+.user-container{
+    width: 100%;
+    padding: 10px;
+}
+.user-container > input{
+    width: 20%;
+    padding: 4px;
+}
+.input-container{
+    width: 100%;
+    padding: 10px;
+}
+.input-container > input{
+    width: 70%;
+    padding: 4px;
+}
+.input-container > button{
+    width: 20%;
+    padding: 4px;
+    border-radius: 5px;
+}
+.display-container{
+    height: 85%;
+}
