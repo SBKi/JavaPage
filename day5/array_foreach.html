@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script>
-        const list = ['sana','mina','nana','nayeon'];
-
-        let text = "<ul>";
-        list.forEach(function(value,index,array){
-            text += "<li>"+value+"</li>";
-        });
-        text+="</ul>";
-        document.write(text);
-    </script>
+ 
 </head>
 <body>
+    <p id="demo"></p>
     
 </body>
+<script>
+    //const numbers = [45, 4, 9, 16, 25];
+    //const over10 = numbers.filter(myFunction);
+
+
+   // document.getElementById("demo").innerHTML = over10;
+
+    //const myFunction = (value) => value>10;
+
+    const numbers = [45, 4, 9, 16, 25];
+
+    const myFunction=(value)=>value>10;
+    
+    const over10 = numbers.filter(myFunction);
+    
+    document.getElementById("demo").innerHTML = over10;
+
+    </script>
 </html>
